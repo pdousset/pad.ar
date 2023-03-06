@@ -1,0 +1,28 @@
+{
+    "server": {
+        "host": "10.9.3.200",
+        "port": 21,
+        "user": "pablo",
+        "password": "Viewsonic01*"
+    },
+    "files": [
+        {
+            "localfile": "/home/sean/Project/upload/test/TestApp",
+            "remotefile": "/apps/test/TestApp"
+        },
+        {
+            "localfile": "/home/sean/Project/upload/test/Test.js",
+            "remotefile": "/apps/test/test.js"
+        }
+    ],
+    "dirs":[
+        {
+            "localdir":"/run/mount/svcs/wifimg/program",
+            "remotedir":"/apps/tests/program"
+        },
+        {
+            "localdir":"/run/mount/svcs/tmsync",
+            "remotedir":"/apps/tests2"
+        }
+    ]
+}

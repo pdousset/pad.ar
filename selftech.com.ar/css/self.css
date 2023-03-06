@@ -1,0 +1,18 @@
+
+
+svg {
+    width: 50%;
+    height: 50%;
+  }
+  
+  svg:hover { 
+    transform: scale(1.25); 
+    transition-duration: 1.5s;
+  }
+
+  .container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
